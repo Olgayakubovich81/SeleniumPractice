@@ -42,7 +42,6 @@ public class Registration {
                 driver.findElement(By.className("btn-default"));
         submitButton.click();
 
-
         WebElement header = driver.findElement(By.tagName("h1"));
         assertEquals("Congratulations! You have successfully registered!",
                 header.getText());
